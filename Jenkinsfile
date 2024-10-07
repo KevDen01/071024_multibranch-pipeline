@@ -15,6 +15,12 @@ pipeline {
             }
         }
 
+        stage('Run app.py') {
+            steps {
+                sh 'python3 app.py'
+            }
+        }
+
         stage('Running Unit Test') {
             steps {
                 sh 'python3 -m unittest discover'
@@ -23,7 +29,7 @@ pipeline {
 
         stage('Deploy Code') {
             steps {
-                echo "Deploy to ECR"
+                echo "Deploy to ECR from feature branch"
             }
         }
     }

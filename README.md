@@ -8,7 +8,6 @@ This project demonstrates a Jenkins Multibranch Pipeline setup for a Python appl
 - `test_app.py`: Contains unit tests for `app.py`.
 - `Jenkinsfile`: Configuration for Jenkins pipeline.
 - `README.md`: Project documentation.
-- `__pycache__/`: Directory for Python bytecode cache files (ignored in version control).
 
 ## Prerequisites
 

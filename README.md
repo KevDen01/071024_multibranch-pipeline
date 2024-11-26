@@ -19,8 +19,8 @@ This project demonstrates a Jenkins Multibranch Pipeline setup for a Python appl
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/KevDen01/071024_multibranch-pipeline.git
-   cd 071024_multibranch-pipeline
+   git clone https://github.com/KevDen01/Jenkins-Python-Multibranch-Pipeline.git
+   cd Jenkins-Python-Multibranch-Pipeline
    ```
 
 2. **Create and Activate a Virtual Environment:**
